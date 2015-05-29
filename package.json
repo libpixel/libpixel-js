@@ -1,0 +1,28 @@
+{
+  "name": "libpixel",
+  "version": "1.0.0-pre",
+  "description": "JavaScript client for LibPixel",
+  "main": "src/libpixel.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/libpixel/libpixel-js"
+  },
+  "author": "LibPixel Oy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/libpixel/libpixel-js/issues"
+  },
+  "homepage": "https://github.com/libpixel/libpixel-js",
+  "devDependencies": {
+    "browserify": "^10.2.3",
+    "gulp": "^3.8.11",
+    "gulp-jasmine": "^2.0.1",
+    "gulp-uglify": "^1.2.0",
+    "jasmine": "^2.3.1",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
