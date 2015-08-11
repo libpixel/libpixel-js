@@ -1,6 +1,6 @@
 {
   "name": "libpixel",
-  "version": "1.0.0-pre",
+  "version": "1.0.0",
   "description": "JavaScript client for LibPixel",
   "main": "src/libpixel.js",
   "scripts": {
