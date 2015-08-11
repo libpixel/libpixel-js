@@ -1,5 +1,7 @@
 # LibPixel
 
+[![Build Status](https://travis-ci.org/libpixel/libpixel-js.svg?branch=master)](https://travis-ci.org/libpixel/libpixel-js)
+
 JavaScript library to generate and sign LibPixel URLs.
 
 ## Install
