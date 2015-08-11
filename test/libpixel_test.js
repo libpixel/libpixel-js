@@ -62,6 +62,16 @@ describe("LibPixel", function() {
         toEqual("http://test.libpx.com/images/1.jpg?width=600&signature=dfcaec7b88d53a7a932e8a6a00d10b4f9ff1336b");
     });
 
+    it("sets the path to '/' if falsy", function() {
+      var libpx = new LibPixel({ host: "test.libpx.com" });
+
+      expect(libpx.url("", { src: "url" })).
+        toEqual("http://test.libpx.com/?src=url");
+
+      expect(libpx.url(null, { src: "url" })).
+        toEqual("http://test.libpx.com/?src=url");
+    });
+
   });
 
 });
