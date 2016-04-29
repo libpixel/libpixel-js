@@ -30,6 +30,10 @@ describe("LibPixel", function() {
         toEqual("http://test.libpx.com/images/1.jpg?signature=bd5634c055d707c1638eff93eb88ff31277958f0#test");
     });
 
+    it("supports URLs containing URLs in src parameter", function() {
+      expect(libpx.sign("http://test.libpx.com/?src=http://test.libpixel.com/images/1.jpg&width=222")).
+        toEqual("http://test.libpx.com/?src=http://test.libpixel.com/images/1.jpg&width=222&signature=b8d87fa2d1943df0ffeee2c825d7d5a225c5360b");
+    });
   });
 
   describe("url", function() {
