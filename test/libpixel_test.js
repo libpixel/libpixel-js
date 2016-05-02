@@ -34,6 +34,11 @@ describe("LibPixel", function() {
       expect(libpx.sign("http://test.libpx.com/?src=http://test.libpixel.com/images/1.jpg&width=222")).
         toEqual("http://test.libpx.com/?src=http://test.libpixel.com/images/1.jpg&width=222&signature=b8d87fa2d1943df0ffeee2c825d7d5a225c5360b");
     });
+
+    it("supports src parameters ending in a forward slash", function () {
+      expect(libpx.sign("http://test.libpx.com/?src=http://test.libpixel.com/images/1/")).
+        toEqual("http://test.libpx.com/?src=http://test.libpixel.com/images/1/&signature=5402177b346db0604762187d958f17773bf05a73");
+    })
   });
 
   describe("url", function() {
