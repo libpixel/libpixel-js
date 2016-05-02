@@ -12,7 +12,7 @@ LibPixel.prototype = {
   constructor: LibPixel,
 
   sign: function(url) {
-    var parts = url.match(/^(.+\/\/[^\/]+)(\/[^#]*)(#.*)?$/);
+    var parts = url.match(/^(.+?\/\/[^\/]+)(\/[^#]*)(#.*)?$/);
     var sign = parts[2];
 
     if (sign[sign.length-1] === "?") {
