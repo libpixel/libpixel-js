@@ -1,11 +1,13 @@
 # LibPixel
 
+`libpixel.js` allows developers to use the services of LibPixel in their web applications without having to rely on other dependencies. The service allows you to generate and sign URLs.
+
 [![NPM Version](https://img.shields.io/npm/v/imgix.js.svg)](https://www.npmjs.com/package/libpixel)
 [![Build Status](https://travis-ci.org/libpixel/libpixel-js.svg?branch=master)](https://travis-ci.org/libpixel/libpixel-js)
 [![Minified Size](https://img.shields.io/bundlephobia/min/imgix.js)](https://bundlephobia.com/result?p=libpixel)
 [![License](https://img.shields.io/github/license/imgix/imgix.js)](https://github.com/libpixel/libpixel-js/blob/master/LICENSE)
 
-JavaScript library to generate and sign LibPixel URLs.
+---
 
 ## Install
 
