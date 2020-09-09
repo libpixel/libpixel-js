@@ -2,10 +2,10 @@
 
 `libpixel.js` allows developers to use the services of LibPixel in their web applications without having to rely on other dependencies. The service allows you to generate and sign URLs.
 
-[![NPM Version](https://img.shields.io/npm/v/imgix.js.svg)](https://www.npmjs.com/package/libpixel)
+[![NPM Version](https://img.shields.io/npm/v/libpixel)](https://www.npmjs.com/package/libpixel)
 [![Build Status](https://travis-ci.org/libpixel/libpixel-js.svg?branch=master)](https://travis-ci.org/libpixel/libpixel-js)
-[![Minified Size](https://img.shields.io/bundlephobia/min/imgix.js)](https://bundlephobia.com/result?p=libpixel)
-[![License](https://img.shields.io/github/license/imgix/imgix.js)](https://github.com/libpixel/libpixel-js/blob/master/LICENSE)
+[![Minified Size](https://img.shields.io/bundlephobia/min/libpixel)](https://bundlephobia.com/result?p=libpixel)
+[![License](https://img.shields.io/github/license/libpixel/libpixel-js)](https://github.com/libpixel/libpixel-js/blob/master/LICENSE)
 
 ---
 
@@ -58,4 +58,4 @@ var url = libpx.url("/images/1.jpg", { height: 400, blur: 20, saturation: -80 })
 
 ## License
 
-`libpixel.js` is owned by [LibPixel](https://www.libpixel.com/)and is licensed under the [MIT](LICENSE) license. Contributions are welcomed, please review [contributing guidelines]() to get started.
+`libpixel.js` is owned by [LibPixel](https://www.libpixel.com/) and is licensed under the [MIT](LICENSE) license. Contributions are welcomed, please review [contributing guidelines]() to get started.
