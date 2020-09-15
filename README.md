@@ -58,4 +58,4 @@ var url = libpx.url("/images/1.jpg", { height: 400, blur: 20, saturation: -80 })
 
 ## License
 
-`libpixel.js` is owned by [LibPixel](https://www.libpixel.com/) and is licensed under the [MIT](LICENSE) license. Contributions are welcomed, please review [contributing guidelines]() to get started.
+`libpixel.js` is owned by [LibPixel](https://www.libpixel.com/) and is licensed under the [MIT](LICENSE) license. Contributions are welcomed.
